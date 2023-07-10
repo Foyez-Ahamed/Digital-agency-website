@@ -52,3 +52,59 @@ body{
     font-weight: 500;
 }
 /* navbar section css end */
+
+/* banner section css start */
+.banner{
+    background-image: url('../asset/images/background.jpg'),linear-gradient(rgba(0, 0 ,0 , 0.3), rgba(0, 0, 0, 0.7));
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content{
+    color: #fff;
+}
+
+.banner-content h1{
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.banner-content h1 span{
+    color: red;
+}
+
+.banner-content p{
+    width: 50%;
+    margin: 15px auto;
+}
+
+.banner-content button{
+    padding: 15px 30px;
+    font-weight: 500;
+    background: #fff;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.banner-content .btn-primary{
+    padding: 15px 30px;
+    font-weight: 500;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+/* banner section css end */
