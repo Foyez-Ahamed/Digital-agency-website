@@ -131,6 +131,17 @@ body{
     width: 50%;
 }
 
+.services-content .services-btn{
+    padding: 12px 25px;
+    font-weight: 500;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
 .services-content h1{
     font-size: 37px;
     font-weight: 600;
@@ -153,6 +164,7 @@ body{
 .author-details{
     display: flex;
     align-items: center;
+    
 }
 
 .author{
@@ -160,6 +172,8 @@ body{
     align-items: center;
     margin-top: 20px;
     gap: 10px;
+    border-right: 2px solid red;
+    padding-right: 30px;
 }
 
 .author img{
