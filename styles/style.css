@@ -250,8 +250,8 @@ body{
     margin: 40px auto 0 auto;
     background: red;
     border-radius: 10px;
-    position: relative;
-    top: -100px;
+    /* position: relative; */
+    margin-top: -80px;
     color: #fff;
  }
 
@@ -287,3 +287,96 @@ body{
     font-weight: 500;
  }
 /* appointment section css end */
+
+/* blog section css start */
+.blog{
+   width: 80%;
+   margin: 60px auto 0 auto;
+}
+
+.blog-content{
+    text-align: center;
+}
+
+.blog-content h1{
+    font-size: 38px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.blog-content h1 span{
+    color: red;
+}
+
+.blog-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.blog-cards .card-1{
+    width: 300px;
+    height: 380px;
+    background: floralwhite;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(74, 73, 72);
+}
+
+.blog-cards .card-1 h1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.blog-cards .card-1 p{
+    padding: 10px;
+}
+
+.blog-cards .card-1 img{
+    width: 300px;
+}
+
+.blog-cards .card-2{
+    width: 300px;
+    height: 380px;
+    background: floralwhite;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(74, 73, 72);
+}
+
+.blog-cards .card-2 h1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.blog-cards .card-2 p{
+    padding: 10px;
+}
+
+.blog-cards .card-2 img{
+    width: 300px;
+}
+
+
+.blog-cards .card-3{
+    width: 300px;
+    height: 380px;
+    background: floralwhite;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(74, 73, 72);
+}
+
+.blog-cards .card-3 h1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.blog-cards .card-3 p{
+    padding: 10px;
+}
+
+.blog-cards .card-3 img{
+    width: 300px;
+}
+
+/* blog section css end */
