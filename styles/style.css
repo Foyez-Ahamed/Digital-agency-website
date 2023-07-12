@@ -129,6 +129,7 @@ body{
 
 .services-content{
     width: 50%;
+    margin-left: 60px;
 }
 
 .services-content .services-btn{
@@ -189,12 +190,17 @@ body{
     border-radius: 30px;
     font-size: 15px;
     color: red;
+    background: #fff;
+    font-weight: 500;
+    border: none;
+    font-size: 16px;
 }
 .upper-boxes{
     display: flex;
     gap: 10px;
     text-align: center;
     color: #000000;
+    margin-right: 60px;
 }
 
 .upper-boxes .box-1{
@@ -216,6 +222,7 @@ body{
     text-align: center;
     color: #000000;
     margin-top: 10px;
+    margin-right: 60px;
 }
 
 .down-boxes .box-1{
